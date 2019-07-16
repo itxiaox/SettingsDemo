@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--StudyListActivity-->
+    <string-array name="filter_genders">
+        <item>All</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="filter_dates">
+        <item>All</item>
+        <item>Today</item>
+        <item>3 Days</item>
+        <item>1 Week</item>
+    </string-array>
+    <string-array name="sort_list">
+        <item>Study Date</item>
+        <item>Patient Name</item>
+        <item>Patient ID</item>
+    </string-array>
+
+    <string-array name="app_id_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="app_id_names">
+        <item>Undefined</item>
+        <item>Plaque Detection</item>
+        <item>Follicular Tracking</item>
+    </string-array>
+
+    <string-array name="app_org_guids">
+        <item></item>
+        <item>4a534a53-0000-d000-1100-00c04fc964ff</item>
+        <item>6f9619ff-8b86-d011-b42d-00c04fc96400</item>
+    </string-array>
+    <string-array name="app_org_names">
+        <item>Undefined</item>
+        <item>Service</item>
+        <item>301 Hospital</item>
+    </string-array>
+
+    <string-array name="app_login_types">
+        <item>Login By Account</item>
+        <item>Login By Scan</item>
+    </string-array>
+
+    <string-array name="app_login_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:key="com.jishimed.pocus.setting.AppPrefHandler"
+    android:summary="@string/key_pref_app_ps_summary"
+    android:title="@string/key_pref_app_ps_title"
+    tools:keep="@xml/pref_app">
+    <com.jishimed.jspref.JSSwitchPreference
+        android:defaultValue="false"
+        android:key="app_save_as_png_mp4"
+        android:title="@string/app_save_image_title" />
+    <com.jishimed.jspref.JSSwitchPreference
+        android:defaultValue="true"
+        android:key="app_export_dicom"
+        android:title="@string/app_export_dicom_title" />
+    <com.jishimed.jspref.JSSwitchPreference
+        android:defaultValue="false"
+        android:key="app_export_media"
+        android:title="@string/app_export_mp4_png_title" />
+    <com.jishimed.jspref.JSEditTextPreference
+        android:defaultValue="@string/company_name"
+        android:key="app_institution_name"
+        android:title="@string/institution_name" />
+    <com.jishimed.jspref.JSEditTextPreference
+        android:key="app_share_ip"
+        android:summary="@string/share_ip_eg"
+        android:title="@string/pref_share_ip" />
+    <com.jishimed.jspref.JSEditTextPreference
+        android:key="app_share_username"
+        android:title="@string/pref_share_username" />
+    <com.jishimed.jspref.JSEditTextPreference
+        android:key="app_share_pwd"
+        android:title="@string/pref_share_pwd" />
+</PreferenceScreen>

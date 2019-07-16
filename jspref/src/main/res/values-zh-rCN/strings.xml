@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JSPref</string>
+    <string name="edit_hint">无</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">颜色选择器</string>
+    <string name="press_color_to_apply">确认请点击新颜色框</string>
+    <string name="left_to_right">→</string>
+    <string name="top_to_bottom">↓</string>
+</resources>

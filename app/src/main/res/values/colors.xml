@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- Control Item Colors -->
+    <color name="itemSelected">#4163AD</color>
+    <color name="itemDisabled">#3A3A3A</color>
+    <color name="itemNormal">#898989</color>
+
+    <color name="line_d">#FF101010</color>
+    <color name="line_b">#FF404040</color>
+</resources>

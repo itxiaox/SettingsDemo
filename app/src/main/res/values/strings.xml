@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">设置</string>
+
+    <string name="dev_engineering_mode_title"  tools:ignore="MissingTranslation">工程师模式</string>
+    <string name="dev_ai_visible_title" >AI按钮可见</string>
+    <string name="dev_bit_rate_title" tools:keep="@string/dev_bit_rate_title">视频压缩码率(Mbit/s)</string>
+    <string name="dev_engineering_mode_summary" tools:keep="@string/dev_engineering_mode_summary">工程师模式，供内部人员使用</string>
+    <string name="key_pref_app_ps_title" tools:keep="@string/key_pref_app_ps_title">通用设置</string>
+    <string name="key_pref_app_ps_summary" tools:keep="@string/key_pref_app_ps_summary">设置保存和导出的文件格式</string>
+    <string name="app_save_image_title" tools:keep="@string/app_save_image_title">保存MP4/PNG文件</string>
+    <string name="app_export_dicom_title" tools:keep="@string/app_export_dicom_title">导出DICOM文件</string>
+    <string name="app_export_mp4_png_title" tools:keep="@string/app_export_mp4_png_title">导出MP4/PNG文件</string>
+    <string name="msg_engineering_mode">已经是工程师模式</string>
+    <string name="Toast_dev_click_time">需再点击%d次进入工程师模式</string>
+
+    <string name="company_name">即时医疗</string>
+
+    <string name="institution_name" tools:keep="@string/institution_name">医疗组织</string>
+
+    <string name="share_ip_eg" tools:keep="@string/share_ip_eg">参考格式 127.0.0.1/share</string>
+
+    <string name="pref_share_ip" tools:keep="@string/pref_share_ip">共享文件夹地址</string>
+
+    <string name="pref_share_username" tools:keep="@string/pref_share_username">共享文件夹用户</string>
+    <string name="pref_share_pwd" tools:keep="@string/pref_share_pwd">共享文件夹密码</string>
+
+    <string name="dev_enable_oem_title" tools:keep="@string/dev_enable_oem_title">Enable OEM UI</string>
+
+    <string name="setting_app_type">Apply default type</string>
+
+    <string name="setting_org_title">Organization</string>
+    <string name="setting_login_type">Login mode</string>
+
+
+</resources>

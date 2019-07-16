@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <id name="widget_item" />
+    <declare-styleable name="JSPreference" parent="android:style/Preference">
+        <attr name="needComplete" format="boolean" />
+        <attr name="needNotify" format="boolean" />
+        <attr name="flag" format="integer" />
+        <attr name="fromWidgetLayout" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="JSSpinnerPreference">
+        <attr name="entries" format="reference" />
+        <attr name="entryValues" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="JSSwitchPreference">
+        <attr name="summaryOn" />
+        <attr name="summaryOff" />
+        <attr name="switchTextOn" format="string" />
+        <attr name="switchTextOff" format="string" />
+        <attr name="disableDependentsState" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pref="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:key="com.jishimed.pocus.setting.DevPrefHandler"
+    android:defaultValue="1"
+    android:summary="@string/dev_engineering_mode_summary"
+    android:title="@string/dev_engineering_mode_title"
+    tools:keep="@xml/pref_dev">
+    <com.jishimed.jspref.JSSwitchPreference
+        android:defaultValue="false"
+        android:key="dev_engineering_mode"
+        android:title="@string/dev_engineering_mode_title" />
+    <com.jishimed.jspref.JSSwitchPreference
+        android:defaultValue="false"
+        android:key="dev_ai_visible"
+        android:title="@string/dev_ai_visible_title" />
+    <com.jishimed.jspref.JSEditTextPreference
+        android:defaultValue="16"
+        android:key="dev_bit_rate"
+        android:inputType="number"
+        android:title="@string/dev_bit_rate_title" />
+    <com.jishimed.jspref.JSSwitchPreference
+        android:defaultValue="false"
+        android:key="dev_enable_oem"
+        pref:flag="2"
+        android:title="@string/dev_enable_oem_title" />/>
+    <com.jishimed.jspref.JSSpinnerPreference
+        android:key="dev_spinner_app_id"
+        android:title="@string/setting_app_type"
+        pref:entries="@array/app_id_names"
+        pref:entryValues="@array/app_id_values"
+        />
+    <com.jishimed.jspref.JSSpinnerPreference
+        android:key="dev_spinner_org"
+        android:title="@string/setting_org_title"
+        pref:needNotify="true"
+        pref:entries="@array/app_org_names"
+        pref:entryValues="@array/app_org_guids"
+        />
+
+    <com.jishimed.jspref.JSSpinnerPreference
+        android:key="dev_spinner_login_type"
+        android:title="@string/setting_login_type"
+        pref:needNotify="true"
+        pref:entries="@array/app_login_types"
+        pref:entryValues="@array/app_login_values"
+        />
+</PreferenceScreen>

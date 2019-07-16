@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JSPref</string>
+    <string name="edit_hint">none</string>
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on the pane of new color to apply</string>
+    <string name="left_to_right">→</string>
+    <string name="top_to_bottom">↓</string>
+</resources>
